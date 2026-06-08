@@ -17,13 +17,10 @@ IDP API 点数需要联系 @该隐 购买。
 
 ## 联系方式
 
-iDP / IDP API 点数购买，请联系 @该隐：
-
-![@该隐二维码](docs/assets/cain_qr.jpg)
-
-注册机相关，请联系 @朴圣佑：
-
-![@朴圣佑二维码](docs/assets/pu_shengyou_qr.jpg)
+| iDP / IDP API 点数购买 | 注册机相关 |
+| --- | --- |
+| 请联系 @该隐 | 请联系 @朴圣佑 |
+| <img src="docs/assets/cain_qr.jpg" alt="@该隐二维码" width="260"> | <img src="docs/assets/pu_shengyou_qr.jpg" alt="@朴圣佑二维码" width="260"> |
 
 ## 功能
 
