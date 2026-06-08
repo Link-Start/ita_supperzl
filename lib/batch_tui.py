@@ -558,7 +558,7 @@ def main(argv: list[str] | None = None) -> int:
             default_group = str(args.sub2api_group or env_first("SUB2API_GROUP", default="5") or "5")
             args.sub2api_group = _prompt_text("Sub2API 分组 ID", default=default_group)
             args.email = _prompt_text("只处理指定邮箱，留空则处理分组错误账号", default=args.email or "")
-            args.limit = _prompt_int("最多处理错误账号数量，0 表示全部", default=int(args.limit or 0), minimum=0) if args.email == "" and not args.account_id else int(args.limit or 0)
+            args.limit = int(args.limit or 0)
             args.threads = _prompt_int("启动线程数", default=args.threads or 3, minimum=1)
     else:
         args.mode = args.mode or "register"

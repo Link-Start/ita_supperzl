@@ -110,6 +110,8 @@ python3 scripts/run_batch_tui.py
 2. 重新补授权
 ```
 
+选择重新补授权时，只需要填写分组 ID、可选指定邮箱和线程数。
+
 注册账号非交互：
 
 ```bash
