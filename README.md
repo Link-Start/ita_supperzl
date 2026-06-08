@@ -2,6 +2,12 @@
 
 独立 Python 项目：通过 IDP 生成账号，走纯 HTTP 协议完成 ChatGPT SSO / Codex OAuth，获取 Codex refresh token，并写入 Sub2API。
 
+## 项目简介
+
+Idp Team Automation 面向 Team 成员账号的批量开通与授权录入场景，整合 IDP 账号生成、OpenAI SSO 授权链路、Codex OAuth token 获取和 Sub2API 账号写入能力。项目采用纯 HTTP 协议流程，无浏览器 fallback，支持单账号执行和多线程批量 TUI，可在执行过程中实时展示成功、失败、运行中和等待数量，并在任务失败后按配置自动重试。
+
+该项目的核心目标是把 Team 成员账号从生成、SSO 授权到 Sub2API 可用账号录入的流程自动化，减少重复手工操作，同时保留脱敏日志、artifact 目录和 summary 统计结果，方便排查和复盘。
+
 ## 作者信息
 
 - iDP 协议作者：@该隐
