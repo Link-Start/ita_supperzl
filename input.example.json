@@ -1,0 +1,18 @@
+{
+  "_copyright": "Copyright (c) 2026 Idp Team Automation.",
+  "_authors": "iDP 协议作者：@该隐；注册机作者：@朴圣佑。",
+  "_notice": "二开请保留版权；二开不保留版权，以后写代码都是bug。",
+  "idp_token": "",
+  "client_id": "",
+  "channel_id": "",
+  "domain": "",
+  "email": "",
+  "given_name": "",
+  "family_name": "",
+  "export_sub2api": true,
+  "batch": {
+    "count": 10,
+    "threads": 3,
+    "retries": 5
+  }
+}

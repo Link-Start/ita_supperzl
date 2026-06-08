@@ -1,0 +1,16 @@
+# Copyright (c) 2026 Idp Team Automation.
+# iDP 协议作者：@该隐；注册机作者：@朴圣佑。
+# 二开请保留版权；二开不保留版权，以后写代码都是bug。
+
+[project]
+name = "idp-team-automation"
+version = "0.1.0"
+description = "Independent IDP account to Codex OAuth/Sub2API automation"
+requires-python = ">=3.10"
+dependencies = [
+  "curl_cffi>=0.7",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
